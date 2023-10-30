@@ -44,6 +44,7 @@ main {
 .descricao {
     margin-bottom: 2.5rem;
 }
+
 .descricao p {
     font-size: 0.8125rem;
     color: var(--gray-600);
@@ -55,54 +56,66 @@ main {
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 1 rem;
-    }
-    
-    .input-box div {
+}
+
+.input-box div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
-    
-    .login label {
+}
+
+.login label {
     font-size: 0.875rem;
     color: var(--gray-800);
     font-weight: 600;
-    }
+}
 
-    .login input {
-        padding: 1rem 0.75rem;
-        border: 1px solid var(--gray-200);
-        border-radius: 0.25rem;
-        }
-        
-        .login input::placeholder {
-        color: var(--gray-400);
-        }
+.login input {
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+}
 
-        .login input:focus {
-        outline: 1px solid var(--purple);
-        }
+.login input::placeholder {
+    color: var(--gray-400);
+}
 
-    .login a{
+.login input:focus {
+    outline: 1px solid var(--purple);
+}
+
+.login a {
     color: var(--purple);
     text-decoration: none;
     font-size: 0.875rem;
     font-weight: 600;
-    }
-    .login a:hover {
+}
+
+.login a:hover {
     text-decoration: underline;
-    }
-    .login button {
-        margin-top: 1rem;
-        padding-block: 1rem;
-        width: 100%;
-        background: var(--purple);
-        border: none;
-        border-radius: 0.25rem;
-        
-        font-size: 1rem;
-        font-weight: 700;
-        color: var(--white);
-        }
+}
+
+.login button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.login>p {
+    color: var(--gray-600);
+}
+
+.login>p a {
+    font-weight: 700;
+    font-size: 1rem;
+}
 
 /* nome da cor, rgb, rbga, hex, hs1, hwb */
