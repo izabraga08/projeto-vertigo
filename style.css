@@ -8,14 +8,32 @@
 
 /* 1 rem = 16px */
 /* 40px = 2.5 rem */
+
+:root {
+    --gray-800: #1e293b;
+
+}
+
 header {
     background-image: url(./imagens/img.svg);
     background-size: cover;
     background-image: url(./Imagens/bg-mobile.png);
     background-size: cover;
     height: 8.375rem;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+    margin-bottom: 3.7rem;
+}
+
+main {
+    padding-inline: 1.5rem;
+}
+
+.descricao h1 {
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+}
+
+/* nome da cor, rgb, rbga, hex, hs1, hwb */
